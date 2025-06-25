@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>America's Towboat Companies</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f2f4f8;
+      color: #333;
+    }
+
+    header {
+      background: #001f3f;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .intro {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 1.1rem;
+    }
+
+    .companies {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .company-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+      padding: 1.5rem;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .company-card:hover {
+      transform: translateY(-6px);
+    }
+
+    .company-name {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .centurion { color: #00274D; }
+    .nautique { color: #E60012; }
+    .mastercraft { color: #111; }
+    .malibu { color: #005EA9; }
+
+    .company-description {
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    footer {
+      background-color: #001f3f;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+  <nav>
+    <ul style="list-style: none; padding: 0; display: flex; justify-content: center; gap: 1.5rem;">
+      <li><a href="#centurion" style="color: white; text-decoration: none;">Centurion</a></li>
+      <li><a href="#nautique" style="color: white; text-decoration: none;">Nautique</a></li>
+      <li><a href="#mastercraft" style="color: white; text-decoration: none;">MasterCraft</a></li>
+      <li><a href="#malibu" style="color: white; text-decoration: none;">Malibu</a></li>
+    </ul>
+</head>
+<body>
+
+  <header>
+    <h1>America's Towboat Companies</h1>
+    <p>Leading the watersports industry with innovation and performance</p>
+  </header>
+
+  <section class="intro">
+    <p>Explore the most respected towboat manufacturers in the U.S., known for powering wakesurfing, wakeboarding, and waterskiing adventures nationwide.</p>
+  </section>
+
+  <section class="companies">
+    <div class="company-card">
+      <div class="company-name centurion">Centurion Boats</div>
+      <p class="company-description">Known for industry-leading wakesurf technology, Centurion offers precision-engineered boats for serious surf and wake enthusiasts.</p>
+    </div>
+
+    <div class="company-card">
+      <div class="company-name nautique">Nautique Boats</div>
+      <p class="company-description">A legacy brand in watersports, Nautique has set the standard for innovation, performance, and world-class towboats since the 1920s.</p>
+    </div>
+
+    <div class="company-card">
+      <div class="company-name mastercraft">MasterCraft Boats</div>
+      <p class="company-description">Combining luxury and performance, MasterCraft delivers high-quality boats designed for wakeboarding, skiing, and all-around fun.</p>
+    </div>
+
+    <div class="company-card">
+      <div class="company-name malibu">Malibu Boats</div>
+      <p class="company-description">A market leader in towboats, Malibu is known for cutting-edge tech like Surf Gate™ and luxurious comfort for family water sports.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 America's Towboat Showcase. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
