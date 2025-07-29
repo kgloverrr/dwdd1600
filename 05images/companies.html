@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Explore top wakesurf boat brands including MasterCraft, Nautique, Malibu, Centurion, and Supra.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Spartan:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="boats.css">
+
+    <title>Wakesurf Boats</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <span>Wakesurf Boat Brands</span>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="wakesurf-boats.html">Wakesurf Boats</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <h1>Top Wakesurf Boat Brands</h1>
+
+        <div class="gallery">
+            <figure>
+         <img src="images/mastercraft.jpg" alt="MasterCraft Wakesurf Boat" width="300" height="200" loading="lazy">
+         <figcaption>MasterCraft</figcaption>
+            </figure>
+            
+            <figure>
+            <img src="images/nautique.jpg" alt="Nautique Wakesurf Boat" width="300" height="200" loading="lazy">
+            <figcaption>Nautique</figcaption>
+            </figure>
+
+         <figure>
+        <img src="https://www.malibuboats.com/media/1009/25lsv-action-2.jpg" alt="Malibu Wakesurf Boat" width="300" height="200" loading="lazy">
+        <figcaption>Malibu</figcaption>
+        </figure>
+
+        <figure>
+        <img src="https://www.centurionboats.com/images/default-source/models/2023-fi25/gallery/2023-centurion-fi25-wakesurf.jpg" alt="Centurion Wakesurf Boat" width="300" height="200" loading="lazy">
+        <figcaption>Centurion</figcaption>
+        </figure>
+
+        <figure>
+         <img src="https://www.supraboats.com/media/3469/2019-supra-se-550-wakesurf-1.jpg" alt="Supra Wakesurf Boat" width="300" height="200" loading="lazy">
+        <figcaption>Supra</figcaption>
+        </figure>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="year"></span> &bull; WakeWorld Co. &bull; <a href="mailto:info@wakeworld.com">Email Us</a></p>
+    </footer>
+
+    <!-- JavaScript for Current Year -->
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
