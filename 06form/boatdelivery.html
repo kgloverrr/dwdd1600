@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="description" content="Schedule delivery">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="boatdelivery.css">
+    
+    <meta charset="UTF-8">
+    <title>Surf Boat Delivery</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <span>Surf Boat Delivery</span>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">About Us</a></li>
+            <li><a href="boatdelivery.html">Schedule Delivery</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <h1>Schedule Your Surf Boat Delivery</h1>
+
+        <p>Thank you for purchasing your new surf boat! Please fill out the form below to schedule your delivery.</p>
+
+        <form method="get" class="myForm" action="thanks.html">
+
+           <fieldset>
+     <legend>Delivery Method</legend>
+    <div class="card-select">
+        <label class="delivery-option">
+            <input type="radio" name="method" value="truck" required>
+            <div class="card">
+                <h4>Flatbed Truck</h4>
+                <p>Most Common</p>
+            </div>
+        </label>
+
+        <label class="delivery-option">
+            <input type="radio" name="method" value="trailer">
+            <div class="card">
+                <h4>Tow by Trailer</h4>
+                <p>Customer provides trailer</p>
+            </div>
+        </label>
+
+        <label class="delivery-option">
+            <input type="radio" name="method" value="pickup">
+            <div class="card">
+                <h4>In-Store Pickup</h4>
+                <p>Pick up directly from store</p>
+            </div>
+        </label>
+    </div>
+</fieldset>
+
+
+            <fieldset>
+             <legend>Additional Notes</legend>
+             <label for="notes">Any special requests or delivery instructions?</label>
+             <textarea id="notes" name="notes" rows="5" cols="50" placeholder="e.g., Gate code, dock directions, special instructions..."></textarea>
+            </fieldset>
+
+
+            <input type="submit" value="Submit Delivery Request">
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+    <p>&copy; 2025 &bull; Surf Boat Delivery Co. &bull; <a href="mailto:info@surfboatdelivery.com">info@surfboatdelivery.com</a> </p>
+</footer>
+</body>
+</html>
